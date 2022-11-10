@@ -3,7 +3,19 @@
 
 #header{
   .header{
-
+&--menu{
+  color: black;
+  position: absolute;
+left: 350px;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+    &--svg{
+      margin-top: 40px;
+    }
   }
 }
 #instant{
