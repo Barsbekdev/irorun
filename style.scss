@@ -46,60 +46,8 @@ left: 350px;
   }
 }
 #works{
-  background: white;
-  padding: 30px 0 0 0;
   .works{
-    &--How{
-      font-size: 45px;
-      color: #333333;
-    }
-    .swiper {
-      width: 100%;
-      height: 100%;
-    }
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    &--purpleLine{
-      width: 288px;
-      height: 12px;
-      background: #582EFF;
-    }
-    &--account{
-      width: 288px;
-      height: 327px;
-    }
-    &--phone{
-       position: absolute;
-       margin-top: 220px;
-      margin-left: -230px;
-      color: #582EFF;
-      font-size: 40px;
-     }
   }
 }
 #download{
