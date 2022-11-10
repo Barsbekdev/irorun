@@ -16,4 +16,18 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+#header .header--menu {
+  color: black;
+  position: absolute;
+  left: 350px;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+#header .header--svg {
+  margin-top: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
