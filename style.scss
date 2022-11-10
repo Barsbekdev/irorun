@@ -52,6 +52,7 @@ left: 350px;
     &--How{
       font-size: 45px;
       color: #333333;
+      padding: 30px 0;
     }
     .swiper {
       width: 100%;
@@ -59,6 +60,9 @@ left: 350px;
     }
 
     .swiper-slide {
+      padding: 30px 0
+
+    ;
       text-align: center;
       font-size: 18px;
       background: #fff;
@@ -68,6 +72,7 @@ left: 350px;
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
+      flex-wrap: wrap;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       -webkit-justify-content: center;
@@ -85,21 +90,56 @@ left: 350px;
       object-fit: cover;
     }
     &--purpleLine{
-      width: 288px;
-      height: 12px;
+      @include Line;
       background: #582EFF;
     }
     &--account{
+      border: 2px solid;
       width: 288px;
-      height: 327px;
+      height: 227px;
+      padding: 30px;
     }
     &--phone{
-       position: absolute;
-       margin-top: 220px;
-      margin-left: -230px;
       color: #582EFF;
       font-size: 40px;
      }
+    &--up{
+      padding: 40px;
+    }
+    &--orangeLine{
+      @include Line;
+      background: #FF814A;
+    }
+    &--Apply{
+      border: 2px solid;
+      width: 288px;
+      height: 227px;
+      padding: 30px;
+    }
+    &--doc{
+      color: #FF814A;
+      font-size: 40px;
+    }
+    &--loan{
+      padding: 40px;
+    }
+    &--greenLine{
+      @include Line;
+      background: #31C5A1;
+    }
+    &--cash{
+      border: 2px solid;
+      width: 288px;
+      height: 227px;
+      padding: 30px;
+    }
+    &--wallet{
+      padding: 40px;
+    }
+    &--give{
+      color: #31C5A1;
+      font-size: 40px;
+    }
   }
 }
 #download{

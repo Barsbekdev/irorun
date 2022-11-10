@@ -16,7 +16,6 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-
 #header .header--menu {
   color: black;
   position: absolute;
@@ -29,6 +28,7 @@ body {
 }
 #header .header--svg {
   margin-top: 40px;
+}
 
 #terms {
   background: white;
@@ -48,7 +48,6 @@ body {
   font-size: 24px;
   color: #333333;
   padding: 30px 0;
-
 }
 
 #works {
@@ -58,12 +57,14 @@ body {
 #works .works--How {
   font-size: 45px;
   color: #333333;
+  padding: 30px 0;
 }
 #works .works .swiper {
   width: 100%;
   height: 100%;
 }
 #works .works .swiper-slide {
+  padding: 30px 0;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -72,6 +73,7 @@ body {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
@@ -88,19 +90,63 @@ body {
   object-fit: cover;
 }
 #works .works--purpleLine {
-  width: 288px;
+  position: absolute;
+  margin-top: -275px;
+  width: 349px;
   height: 12px;
   background: #582EFF;
 }
 #works .works--account {
+  border: 2px solid;
   width: 288px;
-  height: 327px;
+  height: 227px;
+  padding: 30px;
 }
 #works .works--phone {
-  position: absolute;
-  margin-top: 220px;
-  margin-left: -230px;
   color: #582EFF;
+  font-size: 40px;
+}
+#works .works--up {
+  padding: 40px;
+}
+#works .works--orangeLine {
+  position: absolute;
+  margin-top: -275px;
+  width: 349px;
+  height: 12px;
+  background: #FF814A;
+}
+#works .works--Apply {
+  border: 2px solid;
+  width: 288px;
+  height: 227px;
+  padding: 30px;
+}
+#works .works--doc {
+  color: #FF814A;
+  font-size: 40px;
+}
+#works .works--loan {
+  padding: 40px;
+}
+#works .works--greenLine {
+  position: absolute;
+  margin-top: -275px;
+  width: 349px;
+  height: 12px;
+  background: #31C5A1;
+}
+#works .works--cash {
+  border: 2px solid;
+  width: 288px;
+  height: 227px;
+  padding: 30px;
+}
+#works .works--wallet {
+  padding: 40px;
+}
+#works .works--give {
+  color: #31C5A1;
   font-size: 40px;
 }
 
