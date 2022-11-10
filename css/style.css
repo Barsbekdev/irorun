@@ -16,4 +16,24 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+#terms {
+  background: white;
+  padding: 30px 0;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#terms .terms--Save {
+  margin-left: 700px;
+  margin-top: -250px;
+}
+#terms .terms--own {
+  font-size: 45px;
+  color: #333333;
+}
+#terms .terms--give {
+  font-size: 24px;
+  color: #333333;
+  padding: 30px 0;
+}
+
 /*# sourceMappingURL=style.css.map */
