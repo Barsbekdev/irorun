@@ -143,11 +143,18 @@ left: 350px;
   }
 }
 #download{
+  background: #31C5A1;
   .download{
-
+    padding: 138px 321px;
+    text-align: center;
+    &--h1{
+      margin-bottom: 50px;
+      color: white;
+    }
   }
 }
 #footer{
+
   .footer{
 
   }
