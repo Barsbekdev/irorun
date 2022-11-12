@@ -154,8 +154,29 @@ left: 350px;
   }
 }
 #footer{
-
   .footer{
-
+    margin: 90px 50px;
+    display: flex;
+    justify-content: space-between;
+    &--bl{
+      display: flex;
+      &--office{
+        margin: 0 50px;
+        &--p{
+          margin-bottom: 5px;
+        }
+      }
+      &--contact{
+        &--p{
+          margin-bottom: 10px;
+        }
+      }
+      &--power{
+        margin: 0 50px;
+        &--p{
+          margin-bottom: 10px;
+        }
+      }
+    }
   }
 }
