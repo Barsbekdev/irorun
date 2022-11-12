@@ -4,3 +4,9 @@
   width: 349px;
   height: 12px;
 }
+
+@mixin flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
