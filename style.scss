@@ -1,68 +1,74 @@
 @import "reset";
 @import "verables";
 
-#header{
-  .header{
-&--menu{
-  color: black;
-  position: absolute;
-left: 350px;
-  top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 40%;
-}
-    &--svg{
+#header {
+  .header {
+    &--menu {
+      color: black;
+      position: absolute;
+      left: 350px;
+      top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 40%;
+    }
+
+    &--svg {
       margin-top: 40px;
     }
   }
 }
-#instant{
-  .instant{
+
+#instant {
+  .instant {
 
   }
 }
 
-#terms{
+#terms {
   background: white;
   padding: 30px 0;
   margin-top: 100px;
   margin-left: 100px;
-  .terms{
-    &--Save{
+
+  .terms {
+    &--Save {
       margin-left: 700px;
       margin-top: -250px;
     }
-    &--own{
+
+    &--own {
       font-size: 45px;
       color: #333333;
     }
-    &--give{
+
+    &--give {
       font-size: 24px;
       color: #333333;
       padding: 30px 0;
     }
   }
 }
-#works{
+
+#works {
   background: white;
   padding: 30px 0 0 0;
-  .works{
-    &--How{
+
+  .works {
+    &--How {
       font-size: 45px;
       color: #333333;
       padding: 30px 0;
     }
+
     .swiper {
       width: 100%;
       height: 100%;
     }
 
     .swiper-slide {
-      padding: 30px 0
-
-    ;
+      padding: 30px 0;
       text-align: center;
       font-size: 18px;
       background: #fff;
@@ -89,66 +95,80 @@ left: 350px;
       height: 100%;
       object-fit: cover;
     }
-    &--purpleLine{
+
+    &--purpleLine {
       @include Line;
       background: #582EFF;
     }
-    &--account{
+
+    &--account {
       border: 2px solid;
       width: 288px;
       height: 227px;
       padding: 30px;
     }
-    &--phone{
+
+    &--phone {
       color: #582EFF;
       font-size: 40px;
-     }
-    &--up{
+    }
+
+    &--up {
       padding: 40px;
     }
-    &--orangeLine{
+
+    &--orangeLine {
       @include Line;
       background: #FF814A;
     }
-    &--Apply{
+
+    &--Apply {
       border: 2px solid;
       width: 288px;
       height: 227px;
       padding: 30px;
     }
-    &--doc{
+
+    &--doc {
       color: #FF814A;
       font-size: 40px;
     }
-    &--loan{
+
+    &--loan {
       padding: 40px;
     }
-    &--greenLine{
+
+    &--greenLine {
       @include Line;
       background: #31C5A1;
     }
-    &--cash{
+
+    &--cash {
       border: 2px solid;
       width: 288px;
       height: 227px;
       padding: 30px;
     }
-    &--wallet{
+
+    &--wallet {
       padding: 40px;
     }
-    &--give{
+
+    &--give {
       color: #31C5A1;
       font-size: 40px;
     }
   }
 }
-#download{
-  .download{
+
+#download {
+  .download {
 
   }
 }
-#footer{
-  .footer{
+
+#footer {
+  .footer {
 
   }
 }

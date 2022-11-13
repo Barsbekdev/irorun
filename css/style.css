@@ -50,6 +50,10 @@ body {
   padding: 30px 0;
 }
 
+#works {
+  background: white;
+  padding: 30px 0 0 0;
+}
 #works .works--How {
   font-size: 45px;
   color: #333333;
@@ -144,42 +148,6 @@ body {
 #works .works--give {
   color: #31C5A1;
   font-size: 40px;
-}
-
-#download {
-  background: #31C5A1;
-}
-#download .download {
-  padding: 138px 321px;
-  text-align: center;
-}
-#download .download--h1 {
-  margin-bottom: 50px;
-  color: white;
-}
-
-#footer .footer {
-  margin: 90px 50px;
-  display: flex;
-  justify-content: space-between;
-}
-#footer .footer--bl {
-  display: flex;
-}
-#footer .footer--bl--office {
-  margin: 0 50px;
-}
-#footer .footer--bl--office--p {
-  margin-bottom: 5px;
-}
-#footer .footer--bl--contact--p {
-  margin-bottom: 10px;
-}
-#footer .footer--bl--power {
-  margin: 0 50px;
-}
-#footer .footer--bl--power--p {
-  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
