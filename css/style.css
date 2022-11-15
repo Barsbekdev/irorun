@@ -166,33 +166,33 @@ body {
   background: #31C5A1;
 }
 #download .download {
-  padding: 138px 321px;
   text-align: center;
 }
 #download .download--h1 {
-  margin-bottom: 50px;
   color: white;
 }
 
 #footer .footer {
   margin: 90px 50px;
   display: flex;
-  justify-content: space-between;
 }
 #footer .footer--bl {
   display: flex;
 }
 #footer .footer--bl--office {
-  margin: 0 50px;
+  margin: 5px 50px;
 }
 #footer .footer--bl--office--p {
   margin-bottom: 5px;
+}
+#footer .footer--bl--contact {
+  margin: 5px 50px;
 }
 #footer .footer--bl--contact--p {
   margin-bottom: 10px;
 }
 #footer .footer--bl--power {
-  margin: 0 50px;
+  margin: 5px 50px;
 }
 #footer .footer--bl--power--p {
   margin-bottom: 10px;
