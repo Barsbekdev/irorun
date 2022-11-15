@@ -5,20 +5,124 @@
 }
 
 @media (max-width: 1024px) {
+    #works .works--greenLine{
+        width: 290px;
+    }
+    #works .works--purpleLine{
+        width: 290px;
+    }
+    #works .works--orangeLine{
+        width: 290px;
+    }
+    #terms {
+        margin-left: 50px;
+    }
 }
 
 
 
 @media (max-width: 992px) {
+    #terms{
+        margin-left: 40px;
+    }
 }
 
 @media (max-width: 768px) {
+    #terms .terms--own{
+        margin-left: -160px;
+    }
+    #terms .terms--give{
+        margin-left: -170px;
+    }
+    #terms .terms--Gplay{
+        margin-left: -170px;
+    }
+    #terms .terms--AppS{
+        margin-left: -170px;
+    }
+    #terms {
+        margin-left: 22px;
+    }
+    #works .works--greenLine{
+        width: 225px;
+    }
+    #works .works--purpleLine{
+        width: 215px;
+    }
+    #works .works--orangeLine{
+        width: 215px;
+    }
+    #works .works--up {
+        padding: 30px;
+    }
+    #works .works--loan{
+        padding: 4px;
+    }
 }
 
 @media (max-width: 576px) {
+    #terms{
+        margin-left: 0;
+
+    }
+    #terms .terms--own{
+        margin-top: 300px;
+        margin-left: -700px;
+    }
+    #terms .terms--give{
+        margin-left: -700px;
+    }
+    #terms .terms--Gplay{
+        margin-left: -700px;
+    }
+    #terms .terms--AppS{
+        margin-left: -700px;
+    }
+    #terms {
+        margin-left: 40px;
+    }
+    #works .works--up{
+        padding: 25px;
+    }
+    #works .works--Apply{
+        font-size: 15px;
+    }
+    #works .works--purpleLine {
+        width: 184px;
+    }
+    #works .works--orangeLine{
+        width: 153px;
+    }
+    #works .works--Apply{
+        width: 160px;
+    }
+    #works .works--cash{
+        width: 100px;
+    }
+    #works .works--greenLine{
+        width: 160px;
+    }
+    #works .works--account{
+        width: 160px;
+    }
+    #works .works--cash{
+        font-size: 13px;
+        display: none;
+    }
+}
+
+@media (max-width: 451px) {
+    #works .works--Apply{
+        display: none;
+    }
 }
 
 @media (max-width: 450px) {
+    #terms{
+        margin-left: 10px;
+    }
+
+
 }
 
 @media (max-width: 425px) {
@@ -28,6 +132,13 @@
 }
 
 @media (max-width: 380px) {
+    #terms .terms--Phot2{
+        width: 300px;
+        height: 400px;
+    }
+    #terms .terms--own{
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 375px) {
