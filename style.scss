@@ -155,10 +155,9 @@ position: absolute;
 #download{
   background: #31C5A1;
   .download{
-    padding: 138px 321px;
+    //padding: 138px 321px;
     text-align: center;
     &--h1{
-      margin-bottom: 50px;
       color: white;
     }
   }
@@ -167,22 +166,25 @@ position: absolute;
   .footer{
     margin: 90px 50px;
     display: flex;
-    justify-content: space-between;
+    &--img{
+
+    }
     &--bl{
       display: flex;
       &--office{
-        margin: 0 50px;
+        margin: 5px 50px;
         &--p{
           margin-bottom: 5px;
         }
       }
       &--contact{
+        margin: 5px 50px;
         &--p{
           margin-bottom: 10px;
         }
       }
       &--power{
-        margin: 0 50px;
+        margin: 5px 50px;
         &--p{
           margin-bottom: 10px;
         }
