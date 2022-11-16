@@ -60,12 +60,19 @@
     .instant--img1{
         left: 400px;
     }
+
+
+
+
     .download {
         padding: 30px 104px;
     }
     .footer--bl{
         flex-wrap: wrap;
     }
+
+
+
 }
 @media (max-width: 450px) {
     .instant--menu{
@@ -75,6 +82,7 @@
     .header--menu{
         left: 235px;
     }
+
     .download--h1 {
         margin-bottom: 20px;
     }
@@ -113,6 +121,7 @@
         margin-top: 94px;
         font-size: 15px;
     }
+
     .download--gen--img1 {
         width: 94px;
     }
@@ -141,6 +150,7 @@
         margin-top: 71px;
         font-size: 12px;
     }
+
     .download {
         padding: 20px 37px;
     }
