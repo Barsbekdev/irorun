@@ -1,4 +1,8 @@
 @media (max-width: 1440px) {
+
+
+
+
     .download{
         padding: 138px 321px;
     }
@@ -63,14 +67,12 @@
 
 
 
-
     .download {
         padding: 30px 104px;
     }
     .footer--bl{
         flex-wrap: wrap;
     }
-
 
 
 }
@@ -82,6 +84,7 @@
     .header--menu{
         left: 235px;
     }
+
 
     .download--h1 {
         margin-bottom: 20px;
